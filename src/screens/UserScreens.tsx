@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Importamos React Router
 import { Button, Stack, Typography } from '@mui/material';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+import InputBar from '../components/InputBar'; 
 
 
 const UserScreens = () => {
@@ -16,16 +17,15 @@ const UserScreens = () => {
             <Typography variant="h4" sx={{ flexGrow: 1 }}>
               Users
             </Typography>
+            <InputBar />
             <TableContainer component={Paper} sx={{ marginTop: 2, maxWidth: '80%', marginLeft: 'auto', marginRight: 'auto' }}>
               <Table sx={{ minWidth: 650 }} aria-label="simple table">
-                {/* Cabecera de la tabla */}
                 <TableHead>
                   <TableRow>
                     <TableCell>Nombre</TableCell>
                     <TableCell>Email</TableCell>
                   </TableRow>
                 </TableHead>
-                {/* Cuerpo de la tabla */}
                 <TableBody>
                   {classe.map((clas) => (
                     <TableRow key={clas.id}>

@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Im
 import { Button, Typography, Stack } from '@mui/material';
 import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
 
+import  InputBar  from '../components/InputBar'; // Asegúrate de que la ruta sea correcta
+
+
 
 
 const ClassScreens : React.FC = () => {
@@ -18,6 +21,8 @@ const ClassScreens : React.FC = () => {
     <Typography variant="h4" sx={{ flexGrow: 1 }}>
       Clases
     </Typography>
+    <InputBar />
+    {/* Tabla de usuarios */}
     <TableContainer component={Paper} sx={{ marginTop: 2, maxWidth: '80%', marginLeft: 'auto', marginRight: 'auto' }}>
       <Table sx={{ minWidth: 650 }} aria-label="simple table">
         {/* Cabecera de la tabla */}
