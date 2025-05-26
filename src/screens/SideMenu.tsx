@@ -18,7 +18,7 @@ const SideMenu = () => {
                 position: "fixed",
                 width: "300px",
                 height: "100%",
-                backgroundColor: "#fcc138",
+                backgroundColor: "#34495E",
                 padding: 2,
             }}
         >

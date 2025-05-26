@@ -33,7 +33,7 @@ const UserProfile = () => {
             </Stack>
 
             <IconButton sx={{padding: 0}}>
-                <AccountCircleIcon fontSize="medium"  />
+                <AccountCircleIcon fontSize="medium" sx={{color:"white"}}  />
             </IconButton>
 
 
