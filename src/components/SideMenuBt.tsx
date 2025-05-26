@@ -12,7 +12,6 @@ const SideMenuBt = ({ content, act }: SideMenuBtProps) => {
   return (
     <Button
       variant="contained"
-      color="primary"
       size="large"
       sx={{
         display: 'flex',
@@ -24,8 +23,9 @@ const SideMenuBt = ({ content, act }: SideMenuBtProps) => {
         borderRadius: '8px',
         boxShadow: 'none',
         fontSize: '1.2rem',
+        backgroundColor: 'orange',
         '&:hover': {
-          boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+          boxShadow: '0 4px 6px rgba(214, 38, 38, 0.55)',
         },
         '&:focus': {
           outline: 'none',
