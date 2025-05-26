@@ -14,16 +14,14 @@ const Home = () => {
         <Router>
             <Box sx={{ display: "flex", height: "100vh" }}>
                 <Box sx={{flex: 1}}><SideMenu /></Box>
-                {/* SideMenu fijo en el lado izquierdo */}
                 
-
-                {/* Área de contenido (tabla de usuarios) que ocupa el resto del espacio */}
                 <Box sx={{ flex: 5}}>
-                    {/* Definimos las rutas de tu aplicación */}
+
                     <Routes>
                         <Route path="/users" element={<UserScreens />} />
                         <Route path="/classes" element={<ClassScreens />} />
-                        {/* Agrega más rutas según lo necesites */}
+                        <Route path="/custom-board" element={<CustomBoardScreen />} />
+                        
                     </Routes>
                 </Box>
             </Box>
