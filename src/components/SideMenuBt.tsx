@@ -13,7 +13,7 @@ const SideMenuBt = ({ content, act }: SideMenuBtProps) => {
   return (
     <Link
       to={act}
-      style={{ textDecoration: 'none' }}
+      style={{ textDecoration: 'none', width: '100%' }}
     >
       <Button
         sx={{
@@ -27,6 +27,7 @@ const SideMenuBt = ({ content, act }: SideMenuBtProps) => {
           boxShadow: 'none',
           fontSize: '1.2rem',
           backgroundColor: 'orange',
+          color: 'white',
           '&:hover': {
             boxShadow: '0 4px 6px rgba(214, 38, 38, 0.55)',
           },
