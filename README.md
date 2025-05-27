@@ -16,4 +16,8 @@ Clona el repo metete en el y haz npm install. Luego npm run dev para arrancarlo.
 ###
 
 
+## Cambios. 
+
+- De momento he cambiado la forma en la que se cargan las pantallas, antes usaba un boton con un enlace, que recargaba la pagina, posteriormente he decidio usar ese boton dentro del Link de react router, así ya no se recarga la pantalla entera.
+
 stay tunned
