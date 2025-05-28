@@ -5,6 +5,7 @@ import Button from "@mui/material/Button";
 
 import SideMenu from "./SideMenu";
 import CustomBoardScreen from "./CustomBoardScreen";
+import SignUsers from "./SignUser";
 
 import UserScreens from "./UserScreens";
 import ClassScreens from "./ClassScreens";
@@ -21,7 +22,7 @@ const Home = () => {
                         <Route path="/users" element={<UserScreens />} />
                         <Route path="/classes" element={<ClassScreens />} />
                         <Route path="/custom-board" element={<CustomBoardScreen />} />
-                        
+                        <Route path="/sign-users" element={<SignUsers />} />
                     </Routes>
                 </Box>
             </Box>
